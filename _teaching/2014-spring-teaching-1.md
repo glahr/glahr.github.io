@@ -1,20 +1,20 @@
 ---
-title: "Teaching experience 1"
+title: "Biomedical Engineering Undergraduate Teaching"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Undergraduate courses"
+permalink: /teaching/biomedical-engineering-undergraduate-teaching
+venue: "Faculdade Israelita de Ciencias da Saude Albert Einstein (FICSAE)"
+date: 2024-01-01
+location: "Sao Paulo, Brazil"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Teaching in the Biomedical Engineering undergraduate program at Einstein.
 
-Heading 1
-======
+Courses include:
 
-Heading 2
-======
+* Numerical Calculus
+* Analog Electronics
+* Fundamentals of Design and Manufacturing
+* Signals and Systems
 
-Heading 3
-======
+This role also connects teaching with project-based and clinically motivated engineering education.

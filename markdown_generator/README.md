@@ -1,11 +1,51 @@
 # Markdown Generator
 
-This directory contains various ways of creating Markdown for your site. In general, filenames that end with `.ipynb` or `.py` are similar, but may contain different documentation or are intended to be run from with GitHub when deploying your site.
+This directory contains helper scripts for creating publication and talk markdown files for the site.
 
 ## Python Scripts
 
-The .py files are Python scripts that that can be run from the command line (ex., `python3 publications.py publications.csv`) with the objective of also ensuring that they have reduced requirements for packages, which may allow them to run when deploying your site from within GitHub.
+The `.py` files are command-line scripts that generate markdown entries in the collections used by the site.
+
+### CSV or TSV to publications
+
+Run:
+
+```bash
+python3 publications.py publications.csv
+```
+
+The input file must contain the expected headers documented in `publications.py`.
+
+### BibTeX to publications
+
+Run:
+
+```bash
+python3 pubsFromBib.py publications.bib
+```
+
+Useful options:
+
+```bash
+python3 pubsFromBib.py path/to/publications.bib --out-dir ../_publications --overwrite
+python3 pubsFromBib.py path/to/publications.bib --default-category manuscripts
+python3 pubsFromBib.py publications.bib --replace-all
+```
+
+The script uses BibTeX entry types to infer categories:
+
+- `article` -> `manuscripts`
+- `inproceedings` and `conference` -> `conferences`
+- `incollection`, `book`, and `inbook` -> `books`
+
+It reads standard BibTeX fields such as `title`, `author`, `year`, `month`, `day`, `journal`, `booktitle`, `publisher`, `url`, `doi`, `abstract`, and `note`, then creates markdown files in `_publications`.
+
+If you want to fully rebuild the publications collection from the BibTeX source of truth, use:
+
+```bash
+python3 pubsFromBib.py publications.bib --replace-all
+```
 
 ## Jupyter Notebooks
 
-These .ipynb files are Jupyter notebook files that convert a TSV containing structured data about talks (`talks.tsv`) or presentations (`presentations.tsv`) into individual markdown files that will be properly formatted for the academicpages template. The notebooks contain a lot of documentation about the process.
+The notebooks are older interactive alternatives for generating markdown from structured publication or talk data.

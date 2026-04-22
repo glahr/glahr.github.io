@@ -1,152 +1,306 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Gustavo Lahr",
+    "email": "gustavo.lahr (at) einstein.br",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://glahr.github.io",
+    "summary": "Assistant Professor in the Biomedical Engineering program at Hospital Israelita Albert Einstein and researcher at its Brain Institute. His research focuses on robotic rehabilitation and assistive technologies, with an emphasis on wearable sensors, artificial intelligence, and humanrobot interaction, particularly in clinical contexts such as neurological rehabilitation. He completed a postdoctoral fellowship in robotics at the Human-Robot Interfaces and Interaction Laboratory (HRII), Istituto Italiano di Tecnologia, Italy, working on dynamic manipulation, adaptive interaction control, and humanrobot interaction under the Leonardo@IIT project. He holds a Ph.D. and M.Sc. in Mechanical Engineering from the São Carlos School of Engineering, University of São Paulo (EESC-USP), in the field of artificial intelligence applied to dynamic tasks using robotic manipulators. He earned his B.Sc. in Mechatronic Engineering from EESC-USP. During his doctoral studies, he was a visiting researcher through the CAPES Doctoral Sandwich Program (PDSE) at KTH Royal Institute of Technology, Sweden, in the Robotics, Perception and Learning Laboratory. His research interests include robotic manipulation, brainmachine interfaces, biomechatronics, and intelligent systems applied to healthcare.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "São Paulo",
+      "countryCode": "BR",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=dmGqrDYAAAAJ&hl=en"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0002-0403-991X"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "glahr",
+        "url": "https://github.com/glahr"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Faculdade Israelita de Ciências da Saúde Albert Einstein (FICSAE)",
+      "position": "Assistant Professor, Biomedical Engineering",
+      "website": "http://www.einstein.br",
+      "startDate": "2024",
+      "endDate": "Present",
+      "summary": "Assistant Professor in the Biomedical Engineering undergraduate program. Courses taught: Numerical Calculus, Analog Electronics, Fundamentals of Design and Manufacturing, Signals and Systems. Coordinator of the Internationalization Center of Biomedical Engineering (since 2026).",
+      "highlights": []
+    },
+    {
+      "company": "Instituto Israelita de Ensino e Pesquisa Albert Einstein (IIEPAE)",
+      "position": "Researcher, Brain Institute",
+      "website": "http://www.einstein.br",
+      "startDate": "2024",
+      "endDate": "Present",
+      "summary": "Researcher at the Brain Institute of Hospital Israelita Albert Einstein. Research line: Applications of collaborative robots in healthcare. Also teaches Collaborative Robotics in the specialization program in Applied Bioengineering in Health.",
+      "highlights": []
+    },
+    {
+      "company": "Istituto Italiano di Tecnologia (IIT)",
+      "position": "Postdoctoral Researcher, HRII Lab",
+      "website": "https://www.iit.it",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "Postdoctoral fellowship at the Human-Robot Interfaces and Interaction Laboratory (HRII). Research on dynamic manipulation, adaptive interaction control, and human-robot interaction under the Leonardo@IIT project.",
+      "highlights": []
+    },
+    {
+      "company": "Universidade Estadual Paulista (UNESP)",
+      "position": "Substitute Professor",
+      "website": "",
+      "startDate": "2020",
+      "endDate": "2021",
+      "summary": "Substitute professor for Aircraft Control Systems I and Machine Elements.",
+      "highlights": []
+    },
+    {
+      "company": "Universidade Paulista (UNIP)",
+      "position": "Assistant Professor",
+      "website": "",
+      "startDate": "2017",
+      "endDate": "2021",
+      "summary": "Part-time assistant professor in Mechanical Engineering.",
+      "highlights": []
+    },
+    {
+      "company": "MTE-Thomson Indústria Comércio Ltda",
+      "position": "Engineering Intern",
+      "website": "",
+      "startDate": "2013",
+      "endDate": "2014",
+      "summary": "Industrial automation: programming KUKA and MOTOMAN robots for pick-and-place tasks, mechanical design of a micro-parts pick-and-place machine, and calibration of a computer-vision metrology system (Sherlock software).",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Italian Institute of Technology, Italy",
+      "area": "Postdoc in Human-robot interaction",
+      "thesis": "",
+      "studyType": "Postdoctoral Fellowship",
+      "startDate": "2022",
+      "endDate": "2023",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
+      "institution": "University of São Paulo, Brazil",
+      "area": "Ph.D in Autonomous Robotics",
+      "thesis": "Robotic assembly of threaded fasteners: controller optimization and failure detection with machine learning",
+      "studyType": "Doctoral Degree",
+      "startDate": "2017",
+      "endDate": "2021",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "University of São Paulo, Brazil",
+      "area": "M.S. in Autonomous Robotics",
+      "thesis": "Real-time motion synthesis for dynamic precision assembly tasks using robots",
+      "studyType": "Master's Degree",
+      "startDate": "2015",
+      "endDate": "2017",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "University of São Paulo, Brazil",
+      "area": "B.S. in Mechatronics Engineering",
+      "thesis": "Instrumentation and planning of the control system for a power-assisted wheelchair.",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2009",
       "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
       "gpa": null,
       "courses": []
     }
   ],
   "skills": [],
-  "languages": [],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Full professional proficiency"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "French",
+      "fluency": "Elementary proficiency"
+    }
+  ],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "A Non-parametric Approach to Exploring and Quantifying the Information Flow in Human-Robot Collaboration",
+      "publisher": "ACM Transactions on Human-Robot Interaction",
+      "releaseDate": "2025",
+      "website": "https://doi.org/10.1145/3744755",
+      "summary": "Giardini Lahr, G.J.; Sirintuna, D.; Tassi, F.; Amor, H.B.; Ajoudani, A."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Editorial: Wearables for human-robot interaction and collaboration",
+      "publisher": "Frontiers in Robotics and AI",
+      "releaseDate": "2025",
+      "website": "https://doi.org/10.3389/frobt.2025.1753153",
+      "summary": "Zhang, X.; Dwivedi, A.; Leng, Y.; Liarokapis, M.; Lahr, G.J.G."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "IMA-catcher: An IMpact-aware nonprehensile catching framework based on combined optimization and learning",
+      "publisher": "International Journal of Robotics Research",
+      "releaseDate": "2025",
+      "website": "https://doi.org/10.1177/02783649251345851",
+      "summary": "Tassi, F.; Zhao, J.; Lahr, G.J.G.; Gava, L.; Monforte, M.; Glover, A.; Bartolozzi, C.; Ajoudani, A."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "SRL-VIC: A Variable Stiffness-based Safe Reinforcement Learning for Contact-rich Robotic Tasks",
+      "publisher": "IEEE Robotics and Automation Letters",
+      "releaseDate": "2024",
+      "website": "https://doi.org/10.1109/LRA.2024.3396368",
+      "summary": "Zhang, H.; Solak, G.; Lahr, G.J.G.; Ajoudani, A."
+    },
+    {
+      "name": "Kinematic and dynamic data from a robotic assembly of aeronautical threaded fasteners",
+      "publisher": "Data in Brief",
+      "releaseDate": "2023",
+      "website": "https://doi.org/10.1016/j.dib.2023.109674",
+      "summary": "Lahr, G.J.G.; Silva, T.H.S.; Moreira, G.R.; Boaventura, T.; Caurin, G.A.P.; Ajoudani, A."
+    },
+    {
+      "name": "Electromyography-Based, Robust Hand Motion Classification Employing Temporal Multi-Channel Vision Transformers",
+      "publisher": "IEEE Robotics and Automation Letters",
+      "releaseDate": "2022",
+      "website": "https://doi.org/10.1109/lra.2022.3192623",
+      "summary": "Godoy, R.V.; Lahr, G.J.G.; Dwivedi, A.; Reis, T.J.S.; Polegato, P.H.; Becker, M.; Caurin, G.A.P.; Liarokapis, M."
+    },
+    {
+      "name": "The Use of Robot with Force Control in Machining of Green Ceramics",
+      "publisher": "Materials Science Forum (Online)",
+      "releaseDate": "2014",
+      "website": "https://doi.org/10.4028/www.scientific.net/msf.805.615",
+      "summary": "Lahr, G.J.G.; Fortulan, C.A.; Caurin, G.A.P."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Context-Aware Collaborative Pushing of Heavy Objects Using Skeleton-Based Intention Prediction",
+      "event": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+      "date": "2025",
+      "location": "Atlanta, USA",
+      "description": "Solak, G.; Lahr, G.J.G.; Ozdamar, I.; Ajoudani, A. DOI: 10.1109/ICRA55743.2025.11128820"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "MIHRaGe: A Mixed-Reality Interface for Human-Robot Interaction via Gaze-Oriented Control",
+      "event": "2025 IEEE International Conference on Advanced Robotics (ICAR)",
+      "date": "2025",
+      "location": "San Juan, Puerto Rico",
+      "description": "Baptista, R.R.; Gerszberg, N.R.; Godoy, R.V.; Lahr, G.J.G. DOI: 10.1109/ICAR65334.2025.11338723"
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
+      "name": "Evaluating leadership roles in human-robot interaction via highly dynamic collaborative tasks",
+      "event": "33rd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+      "date": "2024",
+      "location": "Pasadena, USA",
+      "description": "Tassi, F.; Lahr, G.J.G.; Sirintuna, D.; Ajoudani, A. DOI: 10.1109/RO-MAN60168.2024.10731284"
     },
     {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Impact-Friendly Object Catching at Non-Zero Velocity Based on Combined Optimization and Learning",
+      "event": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "date": "2023",
+      "location": "Detroit, USA",
+      "description": "Zhao, J.; Lahr, G.J.G.; Tassi, F.; Santopaolo, A.; De Momi, E.; Ajoudani, A. DOI: 10.1109/IROS55552.2023.10341600"
+    },
+    {
+      "name": "A hybrid model-based evolutionary optimization with passive boundaries for physical human-robot interaction",
+      "event": "2022 IEEE International Conference on Robotics and Automation (ICRA)",
+      "date": "2022",
+      "location": "Philadelphia, USA",
+      "description": "Lahr, G.J.G.; Garcia, H.B.; Ajoudani, A.; Boaventura, T.; Caurin, G.A.P. DOI: 10.1109/icra46639.2022.9811606"
+    },
+    {
+      "name": "Online prediction of threading task failure using Convolutional Neural Networks",
+      "event": "2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "date": "2018",
+      "location": "Madrid, Spain",
+      "description": "Moreira, G.R.; Lahr, G.J.G.; Boaventura, T.; Savazzi, J.O.; Caurin, G.A.P. DOI: 10.1109/iros.2018.8594501"
+    },
+    {
+      "name": "Adjustable interaction control using genetic algorithm for enhanced coupled dynamics in tool-part contact",
+      "event": "2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "date": "2017",
+      "location": "Vancouver, Canada",
+      "description": "Lahr, G.J.G.; Garcia, H.B.; Savazzi, J.O.; Moretti, C.B.; Aroca, R.V.; Pedro, L.M.; Barbosa, G.F.; Caurin, G.A.P. DOI: 10.1109/IROS.2017.8205972"
+    },
+    {
+      "name": "Joint kinematic configuration influence on the passivity of an impedance-controlled robotic leg",
+      "event": "2019 IEEE International Conference on Robotics and Automation (ICRA)",
+      "date": "2019",
+      "location": "Montreal, Canada",
+      "description": "Higa, F.Y.G.; Lahr, G.J.G.; Caurin, G.A.P.; Boaventura, T. DOI: 10.1109/ICRA.2019.8794094"
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Numerical Calculus / Signals and Systems / Analog Electronics / Fundamentals of Design and Manufacturing",
+      "institution": "Faculdade Israelita de Ciências da Saúde Albert Einstein (FICSAE)",
+      "date": "2024",
+      "role": "Undergraduate courses, Biomedical Engineering",
+      "description": "Core undergraduate courses in the Biomedical Engineering program."
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Collaborative Robotics",
+      "institution": "Instituto Israelita de Ensino e Pesquisa Albert Einstein (IIEPAE)",
+      "date": "2024",
+      "role": "Graduate/Specialization course",
+      "description": "Course in the specialization program in Applied Bioengineering in Health."
+    },
+    {
+      "course": "Aircraft Control Systems I / Machine Elements",
+      "institution": "Universidade Estadual Paulista (UNESP)",
+      "date": "2020",
+      "role": "Substitute Professor",
+      "description": "Substitute professor position during 2020–2021."
+    },
+    {
+      "course": "General Mechanics (SEM0565) — Teaching Assistant",
+      "institution": "Universidade de São Paulo (USP)",
+      "date": "2020",
+      "role": "Monitor (PAE Program)",
+      "description": "Teaching assistantship under the PAE program."
+    },
+    {
+      "course": "Aircraft Control Systems I (SAA0168) — Teaching Assistant",
+      "institution": "Universidade de São Paulo (USP)",
+      "date": "2018",
+      "role": "Monitor (PAE Program)",
+      "description": "Teaching assistantship under the PAE program."
+    },
+    {
+      "course": "Data Organization in Computers (SEM0543) — Teaching Assistant",
+      "institution": "Universidade de São Paulo (USP)",
+      "date": "2015",
+      "role": "Monitor (PAE Program)",
+      "description": "Teaching of data structures and databases."
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }

@@ -1,20 +1,13 @@
 ---
-title: "Teaching experience 2"
+title: "Collaborative Robotics"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Graduate specialization course"
+permalink: /teaching/collaborative-robotics
+venue: "Instituto Israelita de Ensino e Pesquisa Albert Einstein (IIEPAE)"
+date: 2024-01-01
+location: "Sao Paulo, Brazil"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Teaching in the specialization program in Applied Bioengineering in Health.
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+The course covers collaborative robotics in healthcare, with emphasis on safe interaction, assistive applications, and translational use in clinical settings.

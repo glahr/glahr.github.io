@@ -1,5 +1,11 @@
 # Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+**Academic Pages is something.**
+
+# using pubsFromBib.py
+
+cd /usr/src/app/markdown_generator
+
+python3 pubsFromBib.py publications.bib --replace-all
 
 ![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
 

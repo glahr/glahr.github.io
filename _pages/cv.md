@@ -9,56 +9,56 @@ redirect_from:
 
 {% include base_path %}
 
+Profile
+======
+Assistant Professor in Biomedical Engineering at Hospital Israelita Albert Einstein and researcher at its Brain Institute. My work focuses on human-robot interaction, robotic rehabilitation, assistive technologies, wearable sensing, and AI for healthcare.
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+{% assign education = site.data.cv.education | sort: "endDate" | reverse %}
+{% for edu in education %}
+* **{{ edu.studyType }}**, {{ edu.institution }} ({{ edu.startDate }} - {{ edu.endDate }})
+  * {{ edu.area }}{% if edu.thesis != "" %}
+  * Thesis: {{ edu.thesis }}{% endif %}
+{% endfor %}
 
-Work experience
+Academic and Research Appointments
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+{% assign work = site.data.cv.work | sort: "startDate" | reverse %}
+{% for item in work %}
+* **{{ item.position }}**, {{ item.company }} ({{ item.startDate }} - {{ item.endDate }})
+  * {{ item.summary }}
+{% endfor %}
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Selected Publications
+======
+{% assign publications = site.data.cv.publications | sort: "releaseDate" | reverse %}
+{% for pub in publications %}
+* **{{ pub.name }}**. {{ pub.publisher }}, {{ pub.releaseDate }}.
+  * {{ pub.summary }}
+  * [DOI / link]({{ pub.website }})
+{% endfor %}
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Selected Presentations
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+{% assign presentations = site.data.cv.presentations | sort: "date" | reverse %}
+{% for talk in presentations %}
+* **{{ talk.name }}**. {{ talk.event }}, {{ talk.date }}.
+  * {{ talk.location }}
+{% if talk.description != "" %}  * {{ talk.description }}
+{% endif %}{% endfor %}
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+{% assign teaching = site.data.cv.teaching | sort: "date" | reverse %}
+{% for item in teaching %}
+* **{{ item.course }}**, {{ item.institution }} ({{ item.date }})
+  * {{ item.role }}
+{% if item.description != "" %}  * {{ item.description }}
+{% endif %}{% endfor %}
+
+Languages
 ======
-* Currently signed in to 43 different slack teams
+{% for language in site.data.cv.languages %}
+* **{{ language.language }}**: {{ language.fluency }}
+{% endfor %}
